@@ -1,5 +1,5 @@
 # Pull base image
-FROM balenalib/rpi-raspbian
+FROM balenalib/rpi-raspbian:bullseye
 
 WORKDIR /usr/local/bin/
 COPY ser2sock .
